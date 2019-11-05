@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<title>ms.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="demo_support.css">
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Vibur">
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="nav">
+<div class="ms-top">
+  <div class="ms-bar ms-white ms-wide ms-padding ms-card">
+    <a href="#home" class="ms-bar-item ms-button"><b>MAKERSPACE</b> US</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="ms-right ms-hide-small">
+      <a href="#projects" class="ms-bar-item ms-button">SUPPORT A MAKERSPACE</a>
+      <a href="demo_map.html" class="ms-bar-item ms-button">MAP</a>
+      <a href="makerspace_main.html" class="ms-bar-item ms-button">CONTACT</a>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Header -->
+
+ 
+    
+ 
+<div class="parallax"><h1 id="header" class="ms-xxxlarge ms-text-white"><span class="ms-padding ms-black ms-opacity-min"><b>Support a Growing Makerspace!</b></span> </h1></div>
+
+<!-- Page content -->
+<div class="ms-content ms-padding" style="max-width:1564px">
+
+  
+
+
+  <!-- About Section -->
+
+
+  <div class="ms-container ms-padding-100 parallax2" id="about">
+    <h3 class="ms-border-bottom ms-border-light-grey ms-padding-16">How to Help the Open Acess Science Community Grow:</h3>
+    <p>Makerspaces are a growing movement in dire need of funding. Help initiate a tech or research hub in your city. Below is a list of makerspaces or hackerspaces that are in early to late stages of development, as well as a means to reach them. Some have kindly shared with us their stories, which you could access by clicking on their image. For further questions or information, contact 010.support@gmail.com.
+    </p>
+  </div>
+
+
+  
+
+  
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+
+
+</body>
+</html>
+
+<script>
+ $(document).ready(function(){       
+   var scroll_start = 0;
+   var startchange = $('.nav');
+   var offset = startchange.offset();
+   $(document).scroll(function() { 
+      scroll_start = $(this).scrollTop();
+      if(scroll_start > offset.top) {
+          $('.nav').css('background-color', 'rgba(34,34,34,0.9)');
+       } else {
+          $('.nav').css('background-color', 'transparent');
+       }
+   });
+});
+</script>
