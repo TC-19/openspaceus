@@ -182,19 +182,7 @@ transition-duration: 1s;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.parallax2 {
-  /* The image used */
-  background-image: url("white-space.jpg");
 
-  /* Set a specific height */
-  max-height: 200px; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 
 
