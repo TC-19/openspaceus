@@ -1,4 +1,3 @@
-
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
@@ -37,7 +36,7 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
     top:0;
     height:100%;
     width:100%;
-    position:relative;
+    position:absolute;
 }
 
 
@@ -171,12 +170,30 @@ transition-duration: 1s;
 }
 
 .parallax {
-  background: url(opt4.jpg);
-  min-height: 100%;
+  /* The image used */
+  background-image: url("opt4.jpg");
+
+  /* Set a specific height */
+  min-height: 700px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .parallax2 {
-  background: url(white.jpg);
-  min-height: 60%;
+  /* The image used */
+  background-image: url("white-space.jpg");
+
+  /* Set a specific height */
+  max-height: 200px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -192,20 +209,87 @@ transition-duration: 1s;
 
 
 /* Colors */
-
+.ms-amber,.ms-hover-amber:hover{color:#000!important;background-color:#ffc107!important}
+.ms-aqua,.ms-hover-aqua:hover{color:#000!important;background-color:#00ffff!important}
+.ms-blue,.ms-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
+.ms-light-blue,.ms-hover-light-blue:hover{color:#000!important;background-color:#87CEEB!important}
+.ms-brown,.ms-hover-brown:hover{color:#fff!important;background-color:#795548!important}
+.ms-cyan,.ms-hover-cyan:hover{color:#000!important;background-color:#00bcd4!important}
+.ms-blue-grey,.ms-hover-blue-grey:hover,.ms-blue-gray,.ms-hover-blue-gray:hover{color:#fff!important;background-color:#607d8b!important}
+.ms-green,.ms-hover-green:hover{color:#fff!important;background-color:#4CAF50!important}
+.ms-light-green,.ms-hover-light-green:hover{color:#000!important;background-color:#8bc34a!important}
+.ms-indigo,.ms-hover-indigo:hover{color:#fff!important;background-color:#3f51b5!important}
+.ms-khaki,.ms-hover-khaki:hover{color:#000!important;background-color:#f0e68c!important}
+.ms-lime,.ms-hover-lime:hover{color:#000!important;background-color:#cddc39!important}
+.ms-orange,.ms-hover-orange:hover{color:#000!important;background-color:#ff9800!important}
+.ms-deep-orange,.ms-hover-deep-orange:hover{color:#fff!important;background-color:#ff5722!important}
+.ms-pink,.ms-hover-pink:hover{color:#fff!important;background-color:#e91e63!important}
+.ms-purple,.ms-hover-purple:hover{color:#fff!important;background-color:#9c27b0!important}
+.ms-deep-purple,.ms-hover-deep-purple:hover{color:#fff!important;background-color:#673ab7!important}
+.ms-red,.ms-hover-red:hover{color:#fff!important;background-color:#f44336!important}
+.ms-sand,.ms-hover-sand:hover{color:#000!important;background-color:#fdf5e6!important}
+.ms-teal,.ms-hover-teal:hover{color:#fff!important;background-color:#009688!important}
+.ms-yellow,.ms-hover-yellow:hover{color:#000!important;background-color:#ffeb3b!important}
 .ms-white,.ms-hover-white:hover{color:#000!important;background-color:#fff!important}
 .ms-black,.ms-hover-black:hover{color:#fff!important;background-color:#000!important}
 .ms-grey,.ms-hover-grey:hover,.ms-gray,.ms-hover-gray:hover{color:#000!important;background-color:#9e9e9e!important}
 .ms-light-grey,.ms-hover-light-grey:hover,.ms-light-gray,.ms-hover-light-gray:hover{color:#000!important;background-color:#f1f1f1!important}
 .ms-dark-grey,.ms-hover-dark-grey:hover,.ms-dark-gray,.ms-hover-dark-gray:hover{color:#fff!important;background-color:#616161!important}
-
+.ms-pale-red,.ms-hover-pale-red:hover{color:#000!important;background-color:#ffdddd!important}
+.ms-pale-green,.ms-hover-pale-green:hover{color:#000!important;background-color:#ddffdd!important}
+.ms-pale-yellow,.ms-hover-pale-yellow:hover{color:#000!important;background-color:#ffffcc!important}
+.ms-pale-blue,.ms-hover-pale-blue:hover{color:#000!important;background-color:#ddffff!important}
+.ms-text-amber,.ms-hover-text-amber:hover{color:#ffc107!important}
+.ms-text-aqua,.ms-hover-text-aqua:hover{color:#00ffff!important}
+.ms-text-blue,.ms-hover-text-blue:hover{color:#2196F3!important}
+.ms-text-light-blue,.ms-hover-text-light-blue:hover{color:#87CEEB!important}
+.ms-text-brown,.ms-hover-text-brown:hover{color:#795548!important}
+.ms-text-cyan,.ms-hover-text-cyan:hover{color:#00bcd4!important}
+.ms-text-blue-grey,.ms-hover-text-blue-grey:hover,.ms-text-blue-gray,.ms-hover-text-blue-gray:hover{color:#607d8b!important}
+.ms-text-green,.ms-hover-text-green:hover{color:#4CAF50!important}
+.ms-text-light-green,.ms-hover-text-light-green:hover{color:#8bc34a!important}
+.ms-text-indigo,.ms-hover-text-indigo:hover{color:#3f51b5!important}
+.ms-text-khaki,.ms-hover-text-khaki:hover{color:#b4aa50!important}
+.ms-text-lime,.ms-hover-text-lime:hover{color:#cddc39!important}
+.ms-text-orange,.ms-hover-text-orange:hover{color:#ff9800!important}
+.ms-text-deep-orange,.ms-hover-text-deep-orange:hover{color:#ff5722!important}
+.ms-text-pink,.ms-hover-text-pink:hover{color:#e91e63!important}
+.ms-text-purple,.ms-hover-text-purple:hover{color:#9c27b0!important}
+.ms-text-deep-purple,.ms-hover-text-deep-purple:hover{color:#673ab7!important}
+.ms-text-red,.ms-hover-text-red:hover{color:#f44336!important}
+.ms-text-sand,.ms-hover-text-sand:hover{color:#fdf5e6!important}
+.ms-text-teal,.ms-hover-text-teal:hover{color:#009688!important}
+.ms-text-yellow,.ms-hover-text-yellow:hover{color:#d2be0e!important}
 .ms-text-white,.ms-hover-text-white:hover{color:#fff!important}
 .ms-text-black,.ms-hover-text-black:hover{color:#000!important}
 .ms-text-grey,.ms-hover-text-grey:hover,.ms-text-gray,.ms-hover-text-gray:hover{color:#757575!important}
 .ms-text-light-grey,.ms-hover-text-light-grey:hover,.ms-text-light-gray,.ms-hover-text-light-gray:hover{color:#f1f1f1!important}
 .ms-text-dark-grey,.ms-hover-text-dark-grey:hover,.ms-text-dark-gray,.ms-hover-text-dark-gray:hover{color:#3a3a3a!important}
-
+.ms-border-amber,.ms-hover-border-amber:hover{border-color:#ffc107!important}
+.ms-border-aqua,.ms-hover-border-aqua:hover{border-color:#00ffff!important}
+.ms-border-blue,.ms-hover-border-blue:hover{border-color:#2196F3!important}
+.ms-border-light-blue,.ms-hover-border-light-blue:hover{border-color:#87CEEB!important}
+.ms-border-brown,.ms-hover-border-brown:hover{border-color:#795548!important}
+.ms-border-cyan,.ms-hover-border-cyan:hover{border-color:#00bcd4!important}
+.ms-border-blue-grey,.ms-hover-border-blue-grey:hover,.ms-border-blue-gray,.ms-hover-border-blue-gray:hover{border-color:#607d8b!important}
+.ms-border-green,.ms-hover-border-green:hover{border-color:#4CAF50!important}
+.ms-border-light-green,.ms-hover-border-light-green:hover{border-color:#8bc34a!important}
+.ms-border-indigo,.ms-hover-border-indigo:hover{border-color:#3f51b5!important}
+.ms-border-khaki,.ms-hover-border-khaki:hover{border-color:#f0e68c!important}
+.ms-border-lime,.ms-hover-border-lime:hover{border-color:#cddc39!important}
+.ms-border-orange,.ms-hover-border-orange:hover{border-color:#ff9800!important}
+.ms-border-deep-orange,.ms-hover-border-deep-orange:hover{border-color:#ff5722!important}
+.ms-border-pink,.ms-hover-border-pink:hover{border-color:#e91e63!important}
+.ms-border-purple,.ms-hover-border-purple:hover{border-color:#9c27b0!important}
+.ms-border-deep-purple,.ms-hover-border-deep-purple:hover{border-color:#673ab7!important}
+.ms-border-red,.ms-hover-border-red:hover{border-color:#f44336!important}
+.ms-border-sand,.ms-hover-border-sand:hover{border-color:#fdf5e6!important}
+.ms-border-teal,.ms-hover-border-teal:hover{border-color:#009688!important}
+.ms-border-yellow,.ms-hover-border-yellow:hover{border-color:#ffeb3b!important}
 .ms-border-white,.ms-hover-border-white:hover{border-color:#fff!important}
 .ms-border-black,.ms-hover-border-black:hover{border-color:#000!important}
 .ms-border-grey,.ms-hover-border-grey:hover,.ms-border-gray,.ms-hover-border-gray:hover{border-color:#9e9e9e!important}
 .ms-border-light-grey,.ms-hover-border-light-grey:hover,.ms-border-light-gray,.ms-hover-border-light-gray:hover{border-color:#f1f1f1!important}
+.ms-border-dark-grey,.ms-hover-border-dark-grey:hover,.ms-border-dark-gray,.ms-hover-border-dark-gray:hover{border-color:#616161!important}
+.ms-border-pale-red,.ms-hover-border-pale-red:hover{border-color:#ffe7e7!important}.ms-border-pale-green,.ms-hover-border-pale-green:hover{border-color:#e7ffe7!important}
+.ms-border-pale-yellow,.ms-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.ms-border-pale-blue,.ms-hover-border-pale-blue:hover{border-color:#e7ffff!important}
