@@ -23,6 +23,9 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
 [type=search]::-webkit-search-decoration{-webkit-appearance:none}
 ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
 
+:target {
+    display: block;
+}
 
 .map-responsive{
     overflow:hidden;
