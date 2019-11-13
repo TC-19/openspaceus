@@ -171,20 +171,20 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .lightonoff {
         width: 130px;
         height: 195px;
-        background: url("Light1.jpg") no-repeat;
+        background: url("Light1.jpg") repeat;
         display: inline-block;
     }
     .lightonoff:hover {
-        background: url("Light2.jpg") no-repeat;
+        background: url("Light2.jpg") repeat;
     }
 .labdrip {
         width: 130px;
         height: 195px;
-        background: url("Lab1.jpg") no-repeat;
+        background: url("Lab1.jpg") repeat;
         display: inline-block;
     }
     .labdrip:hover {
-        background: url("Lab3.jpg") no-repeat;
+        background: url("Lab3.jpg") repeat;
     }
 
 .nav {
