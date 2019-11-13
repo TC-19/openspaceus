@@ -168,6 +168,24 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .ms-transparent,.ms-hover-none:hover{background-color:transparent!important}
 .ms-hover-none:hover{box-shadow:none!important}
 
+.lightonoff {
+        width: 130px;
+        height: 195px;
+        background: url("Light1.jpg") no-repeat;
+        display: inline-block;
+    }
+    .lightonoff:hover {
+        background: url("Light2.jpg") no-repeat;
+    }
+.labdrip {
+        width: 130px;
+        height: 195px;
+        background: url("Lab1.jpg") no-repeat;
+        display: inline-block;
+    }
+    .labdrip:hover {
+        background: url("Lab3.jpg") no-repeat;
+    }
 
 .nav {
 transition-duration: 1s;
