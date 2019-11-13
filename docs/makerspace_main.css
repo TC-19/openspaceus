@@ -178,7 +178,7 @@ transition-duration: 1s;
   background-image: url("lightTCdraw.jpg");
 
   /* Set a specific height */
-  min-height: 700px; 
+  min-height: 1000px; 
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
