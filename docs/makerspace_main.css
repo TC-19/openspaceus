@@ -168,28 +168,18 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .ms-transparent,.ms-hover-none:hover{background-color:transparent!important}
 .ms-hover-none:hover{box-shadow:none!important}
 
-#lighton {
-  margin:0 auto;
-  width:450px;
-  height:281px;
-  transition: background-image 1s ease-in-out;
-  background-image:url("Light1.jpg");
+.ParallaxVideo{ 
+    height: 300px;
+    padding-bottom: 50px;
+    padding-top: 50px; 
+}
+.ParallaxVideo video{ 
+    min-width: 100%;
+    position: fixed;
+    top:0;
+    z-index: -999;
 }
 
-#lighton:hover {
-  background-image:url("Light2.jpg");
-}
-
-
-.labdrip {
-        width: 130px;
-        height: 195px;
-        background: url("Lab1.jpg") no repeat;
-        display: inline-block;
-    }
-    .labdrip:hover {
-        background: url("Lab3.jpg") no repeat;
-    }
 
 .nav {
 transition-duration: 1s;
