@@ -34,13 +34,7 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
     position:relative;
     height:0;
 }
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-}
+
 
 
 
