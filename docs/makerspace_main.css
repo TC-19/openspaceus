@@ -35,7 +35,13 @@ legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}t
     height:0;
 }
 
-
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
 
 
 html,body{font-family:Vibur,sans-serif;font-size:20px;line-height:1.5;margin:15px}html{overflow-x:hidden}
@@ -161,6 +167,15 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .ms-button:hover{color:#000!important;background-color:#ccc!important}
 .ms-transparent,.ms-hover-none:hover{background-color:transparent!important}
 .ms-hover-none:hover{box-shadow:none!important}
+
+#header{
+ position: absolute;
+ margin-left: 38%;
+  top: 75%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 
 .ParallaxVideo{ 
     height: 300px;
