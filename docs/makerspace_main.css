@@ -196,28 +196,7 @@ transition-duration: 1s;
 }
 
 
-.parallax2 {
-  /* The image used */
-  background-image: url("labsTCdraw.jpg");
 
-  /* Set a specific height */
-  min-height: 500px; 
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#header{
- position: absolute;
- margin-left: 38%;
-  top: 75%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
 
 
 /* Colors */
